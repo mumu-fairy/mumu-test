@@ -8,9 +8,9 @@ from urllib import request, error
 # 提交答案服务域名或IP
 JUDGE_SERVER = "http://judge.aiops-challenge.com"
 # 比赛ID，字符串类型，可通过比赛界面 URL 获取, 比如"赛道一（Qwen1.5-14B）：基于检索增强的运维知识问答挑战赛"的URL为https://competition.aiops-challenge.com/home/competition/1771009908746010681 ，比赛ID为1771009908746010681
-CONTEST = "1780211530478944282"
+CONTEST = ""
 # 团队ID, 字符串类型，需要在参加比赛并组队后能获得，具体在比赛详情页-> 团队 -> 团队ID，为一串数字标识。 
-TICKET = "1797512509830254605"
+TICKET = ""
 
 
 def submit(data, judge_server=None, contest=None, ticket=None):
